@@ -7,7 +7,7 @@
 ## Highlights
 
 * UX and security defaults for [macOS][macos]
-* [Stow] for tending my symlink farm
+* [stow] for tending my symlink farm
 * [Homebrew] with [Cask] for managing [packages and applications][brewfile]
     * [Alfred] for launching apps and running system commands
     * [f.lux] to help me sleep better
@@ -87,7 +87,6 @@ Released under the [MIT License](LICENSE).
 [PostgreSQL]: https://www.postgresql.org
 [Rails.vim]: https://github.com/tpope/vim-rails
 [Spectacle]: https://www.spectacleapp.com
-[Stow]: https://www.gnu.org/software/stow
 [Vim]: http://www.vim.org
 [binstubs]: https://twitter.com/tpope/status/165631968996900865
 [brewfile]: Brewfile
@@ -100,7 +99,8 @@ Released under the [MIT License](LICENSE).
 [rbenv]: https://github.com/rbenv/rbenv
 [setup]: bin/setup
 [solarized]: http://chriskempson.github.io/base16/#solarized
-[tat]: stow/.bin/tat
+[stow]: https://www.gnu.org/software/stow
+[tat]: stowage/.bin/tat
 [thoughtbot]: https://github.com/thoughtbot/laptop
 [tmux]: https://tmux.github.io
 [vim-plug]: https://github.com/junegunn/vim-plug

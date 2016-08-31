@@ -16,8 +16,8 @@ brew update
 brew bundle
 brew cleanup -s
 
-say_progress "Stowing packages"
-stow --restow --target="$HOME" --verbose stow
+say_progress "Stowing stowage"
+stow --restow --target="$HOME" --verbose stowage
 
 say_progress "Configuring macOS"
 source bin/macos
