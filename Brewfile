@@ -1,0 +1,21 @@
+brew "bash-completion"
+brew "git"
+brew "heroku"
+brew "node"
+brew "postgresql", restart_service: :changed
+brew "reattach-to-user-namespace"
+brew "rbenv"
+brew "ruby-build"
+brew "shellcheck"
+brew "stow"
+brew "tmux"
+brew "vim", args: ["override-system-vi"]
+
+cask "alfred"
+cask "appcleaner"
+cask "dropbox"
+cask "flux"
+cask "licecap"
+cask "slack"
+cask "spectacle"
+cask "spotify"

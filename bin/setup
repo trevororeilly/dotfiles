@@ -1,0 +1,29 @@
+#!/bin/sh
+
+say_progress() {
+  printf "\n== %s ==\n" "$1"
+}
+
+set -e
+
+command -v brew >/dev/null 2>&1 || {
+  say_progress "Installing Homebrew"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+}
+
+say_progress "Bundling Brewfile"
+brew update
+brew bundle
+brew cleanup -s
+
+say_progress "Stowing packages"
+stow --restow --target="$HOME" --verbose stow
+
+say_progress "Configuring macOS"
+source bin/macos
+
+say_progress "Plugging Vim"
+vim -c PlugInstall -c quitall
+
+say_progress "Importing terminal profile"
+open "Solarized Dark.terminal"

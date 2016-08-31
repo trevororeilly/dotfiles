@@ -1,0 +1,20 @@
+[branch]
+  autosetuprebase = always
+[color]
+  ui = auto
+[core]
+  autocrlf = input
+  excludesfile = ~/.gitignore.global
+[credential]
+  helper = osxkeychain
+[fetch]
+  prune = true
+[grep]
+  extendRegexp = true
+  lineNumber = true
+[include]
+  path = ~/.gitconfig.local
+[merge]
+  ff = only
+[push]
+  default = current
