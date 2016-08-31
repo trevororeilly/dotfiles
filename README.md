@@ -1,5 +1,7 @@
 # trevororeilly dotfiles
 
+[![Code Climate][gpa]][codeclimate]
+
 :wave: I'm a web developer. Welcome to my setup.
 
 ![Screenshot of Vim running in a tmux window](screenshots/tmux_and_vim.png)
@@ -90,9 +92,11 @@ Released under the [MIT License](LICENSE).
 [Vim]: http://www.vim.org
 [binstubs]: https://twitter.com/tpope/status/165631968996900865
 [brewfile]: Brewfile
+[codeclimate]: https://codeclimate.com/github/trevororeilly/dotfiles
 [contributing]: CONTRIBUTING.md
 [croaky]: https://github.com/croaky/dotfiles
 [f.lux]: https://justgetflux.com
+[gpa]: https://codeclimate.com/github/trevororeilly/dotfiles/badges/gpa.svg
 [macOS]: bin/macos
 [mathiasbynens]: https://github.com/mathiasbynens/dotfiles
 [npm]: https://www.npmjs.com

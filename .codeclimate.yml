@@ -1,0 +1,11 @@
+---
+engines:
+  fixme:
+    enabled: true
+  shellcheck:
+    enabled: true
+exclude_paths:
+  - "stowage/.vim/autoload/"
+ratings:
+  paths:
+    - "**/*"
