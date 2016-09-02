@@ -2,8 +2,8 @@
 export EDITOR=vi
 
 # Aliases
-alias gg="git grep -I --break --heading --show-function --untracked"
-alias ll="ls -alFG"
+alias gg='git grep -I --break --heading --show-function --untracked'
+alias ll='ls -alFG'
 
 # rbenv
 eval "$(rbenv init -)"
@@ -19,4 +19,4 @@ source "$(brew --prefix)/etc/bash_completion"
 
 # PS1
 GIT_PS1_SHOWDIRTYSTATE=true
-export PS1="\W[$(rbenv version-name)]$(__git_ps1 "(%s)")$ "
+export PS1='\W[$(rbenv version-name)]$(__git_ps1 "(%s)")$ '

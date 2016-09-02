@@ -7,23 +7,23 @@ say_progress() {
 set -e
 
 command -v brew >/dev/null 2>&1 || {
-  say_progress "Installing Homebrew"
+  say_progress 'Installing Homebrew'
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 }
 
-say_progress "Bundling Brewfile"
+say_progress 'Bundling Brewfile'
 brew update
 brew bundle
 brew cleanup -s
 
-say_progress "Stowing stowage"
+say_progress 'Stowing stowage'
 stow --restow --target="$HOME" --verbose stowage
 
-say_progress "Configuring macOS"
+say_progress 'Configuring macOS'
 source bin/macos
 
-say_progress "Plugging Vim"
+say_progress 'Plugging Vim'
 vim -c PlugInstall -c quitall
 
-say_progress "Importing terminal profile"
-open "Solarized Dark.terminal"
+say_progress 'Importing terminal profile'
+open 'Solarized Dark.terminal'
