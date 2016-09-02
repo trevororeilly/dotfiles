@@ -6,9 +6,13 @@
 
 ![Screenshot of Vim running in a tmux window](screenshots/tmux_and_vim.png)
 
+## Requirements
+
+Tested on macOS El Capitan (10.11).
+
 ## Highlights
 
-* UX and security defaults for [macOS][macos]
+* UX and security [defaults for macOS][macos]
 * [stow] for tending my symlink farm
 * [Homebrew] with [Cask] for managing [packages and applications][brewfile]
     * [Alfred] for launching apps and running system commands
@@ -23,7 +27,7 @@
     * Screen and Vim key bindings
     * [tat] for quickly attaching sessions
 * [Vim] as my `EDITOR`
-    * [vim-plug] for making it awesomer
+    * [vim-plug] for making it awesome
     * [EditorConfig] to improve code consistency
     * [CtrlP] with `git-ls-files` for fast fuzzy finding
     * [Rails.vim] and other fine [@tpope] plugins
@@ -39,10 +43,6 @@
 * [rbenv] for managing Rubies
 * [Node.js] with [npm] for running JavaScript apps and installing packages
 * [PostgreSQL] for storing relational data
-
-## Requirements
-
-Tested on macOS El Capitan (10.11).
 
 ## Installation
 
