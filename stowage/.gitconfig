@@ -1,3 +1,5 @@
+[alias]
+  fixup = commit --all --fixup=HEAD
 [branch]
   autosetuprebase = always
 [color]
