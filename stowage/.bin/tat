@@ -1,4 +1,6 @@
 #!/bin/sh
 
+set -euxo pipefail
+
 session_name="$(basename "$PWD" | tr . -)"
 tmux new-session -As "$session_name"
