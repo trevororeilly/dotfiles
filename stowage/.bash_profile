@@ -19,4 +19,4 @@ source "$(brew --prefix)/etc/bash_completion"
 
 # PS1
 GIT_PS1_SHOWDIRTYSTATE=true
-export PS1='\W[$(rbenv version-name)]$(__git_ps1 "(%s)")$ '
+export PS1='\W$(__git_ps1 " (%s)")\$ '
