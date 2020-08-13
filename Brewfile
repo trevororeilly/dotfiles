@@ -1,4 +1,5 @@
 brew "bash-completion"
+brew "fzf"
 brew "git"
 brew "heroku"
 brew "node"

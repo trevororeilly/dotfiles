@@ -26,11 +26,12 @@ set ttimeoutlen=50                  " Set key code wait time
 set wildmode=list:longest,list:full " Tab complete to longest unambiguous match
 
 call plug#begin()
+Plug '/usr/local/opt/fzf'
 Plug 'chriskempson/base16-vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'jgdavey/tslime.vim'
 Plug 'jgdavey/vim-turbux'
-Plug 'kien/ctrlp.vim'
+Plug 'junegunn/fzf.vim'
 Plug 'nicholaides/words-to-avoid.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-abolish'
@@ -49,18 +50,11 @@ filetype plugin indent on
 " Enable syntax highlighting
 syntax on
 
-" git-ls-files is fast enough to not need caching
-let g:ctrlp_use_caching = 0
-
-" Prefer git-ls-files for listing files in CtrlP
-let g:ctrlp_user_command = [
-  \'.git',
-  \'git -C %s ls-files . --cached --exclude-standard --others',
-  \'find %s -type f'
-\]
-
 " Default to current tmux session
 let g:tslime_always_current_session = 1
 
 " Disable concealing of quotes
 let g:vim_json_syntax_conceal = 0
+
+" Map Ctrl + p to fzf
+nnoremap <c-p> :GFiles --cached --exclude-standard --others<cr>

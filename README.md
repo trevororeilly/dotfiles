@@ -29,7 +29,7 @@ Tested on macOS El Capitan (10.11).
 * [Vim] as my `EDITOR`
     * [vim-plug] for making it awesome
     * [EditorConfig] to improve code consistency
-    * [CtrlP] with `git-ls-files` for fast fuzzy finding
+    * [fzf] mapped to `Ctrl + p` for fast fuzzy finding
     * [Rails.vim] and other fine [@tpope] plugins
     * Run tests in tmux based on the current file
     * Spell-checking for Git commit messages and Markdown
