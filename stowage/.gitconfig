@@ -1,6 +1,6 @@
 [alias]
   fixup = commit --all --fixup=HEAD
-  rubocop = !git diff --diff-filter=d --name-only origin/master | xargs rubocop --auto-correct
+  rubocop = !git diff --diff-filter=d --name-only origin/main | xargs rubocop --auto-correct
 [branch]
   autosetuprebase = always
 [color]
