@@ -1,3 +1,6 @@
+# Suppress Bash warning
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # ENV
 export EDITOR=vi
 
