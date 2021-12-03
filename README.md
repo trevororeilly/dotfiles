@@ -18,7 +18,7 @@ Tested on macOS El Capitan (10.11).
     * [Alfred] for launching apps and running system commands
     * [f.lux] to help me sleep better
     * [LICEcap] for creating animated GIFs
-    * [Spectacle] for resizing windows
+    * [Rectangle] for resizing windows
 * [Solarized Dark][solarized] color schemes for Terminal.app, Vim, and tmux
 * Bash as my shell
     * `gg` alias for grepping Git repositories
@@ -42,7 +42,6 @@ Tested on macOS El Capitan (10.11).
     * Set `push.default` to `current`
 * [rbenv] for managing Rubies
 * [Node.js] with [npm] for running JavaScript apps and installing packages
-* [PostgreSQL] for storing relational data
 
 ## Installation
 
@@ -86,9 +85,8 @@ Released under the [MIT License](LICENSE).
 [Homebrew]: http://brew.sh
 [LICEcap]: http://www.cockos.com/licecap
 [Node.js]: https://nodejs.org
-[PostgreSQL]: https://www.postgresql.org
 [Rails.vim]: https://github.com/tpope/vim-rails
-[Spectacle]: https://www.spectacleapp.com
+[Rectangle]: https://github.com/rxhanson/Rectangle
 [Vim]: http://www.vim.org
 [binstubs]: https://twitter.com/tpope/status/165631968996900865
 [brewfile]: Brewfile
