@@ -58,5 +58,13 @@ let g:tslime_always_current_session = 1
 " Disable concealing of quotes
 let g:vim_json_syntax_conceal = 0
 
+let g:rails_projections = {
+      \ 'lib/tasks/*.rake': {
+      \   'test': 'spec/lib/tasks/{}_spec.rb',
+      \ },
+      \ 'spec/lib/tasks/*_spec.rb': {
+      \   'alternate': 'lib/tasks/{}.rake'
+      \ }}
+
 " Map Ctrl + p to fzf
 nnoremap <c-p> :GFiles --cached --exclude-standard --others<cr>
