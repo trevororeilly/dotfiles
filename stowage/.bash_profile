@@ -5,11 +5,12 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 export DISABLE_SPRING=true
 
 # ENV
-export EDITOR=vi
+export EDITOR=nvim
 
 # Aliases
 alias gg='git grep -I --break --heading --show-function --untracked'
 alias ll='ls -alFG'
+alias vi='nvim'
 
 # Maintain PATH ordering in tmux
 if [ -x /usr/libexec/path_helper ]; then
