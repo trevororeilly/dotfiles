@@ -8,7 +8,7 @@
 
 ## Requirements
 
-Tested on macOS El Capitan (10.11).
+Tested on macOS Monterey (12.6).
 
 ## Highlights
 
